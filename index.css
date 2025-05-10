@@ -1,0 +1,257 @@
+.body {
+    background-color: rgb(36, 0, 0);
+  overflow-x: hidden;
+}
+
+@font-face {
+    font-family: 'Helveticabold';
+    src: url(HelveticaWorld-Bold.woff2);
+  }
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(HelveticaWorld-Regular.woff2);
+  }
+
+  @font-face {
+    font-family: "MSung HK Medium";
+    src: url("https://db.onlinewebfonts.com/t/6c9a74d4567987730fd9240eead1ee16.eot");
+    src: url("https://db.onlinewebfonts.com/t/6c9a74d4567987730fd9240eead1ee16.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6c9a74d4567987730fd9240eead1ee16.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6c9a74d4567987730fd9240eead1ee16.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6c9a74d4567987730fd9240eead1ee16.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6c9a74d4567987730fd9240eead1ee16.svg#MSung HK Medium")format("svg");
+}
+
+@font-face {
+  font-family: "HelveticaNew";
+  src: url("https://db.onlinewebfonts.com/t/0ea33830686c6ee0453b626d9aac208e.eot");
+  src: url("https://db.onlinewebfonts.com/t/0ea33830686c6ee0453b626d9aac208e.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0ea33830686c6ee0453b626d9aac208e.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0ea33830686c6ee0453b626d9aac208e.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0ea33830686c6ee0453b626d9aac208e.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0ea33830686c6ee0453b626d9aac208e.svg#Helvetica")format("svg");
+}
+
+.navbar {
+    background-color: #b21212;
+    height: 100px;
+    z-index: 1000;
+    position: relative;
+}
+
+.navbar-toggler {
+  border-color: white;
+  margin-right: 30px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  
+}
+
+.container-fluid img {
+  width: 100%; /* or an appropriate size */
+  height: auto;
+}
+
+/* Give background and padding to the collapsed navbar menu */
+.navbar-collapse {
+  background-color: #b21212; /* Same as your navbar */
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+}
+
+/* Optional: make sure links look good in the dropdown */
+.navbar-collapse .nav-link {
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+/* Optional: change hover color */
+.navbar-collapse .nav-link:hover {
+  background-color: #8d0f0f;
+  border-radius: 5px;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+}
+
+.navtext {
+    font-size: 30px;
+    margin-left: 6rem;
+    font-family: 'HelveticaNew';
+}
+
+.kiri img {
+    width: 400px;
+    height: 500px;
+    margin-top: 100px;
+    margin-right: 0rem;
+}
+
+.kanan {
+    margin-bottom: 100px;
+   
+}
+
+.card-kanan {
+    width: 100%;
+    height: 300px;
+    margin-right: 10rem;
+    border-radius: 30px;
+    background-color: rgb(133, 133, 133);
+}
+
+.card-title {
+    font-family: 'Helveticabold';
+    color: black;
+}
+
+.card-body p{
+    font-family: 'MSung HK Medium';
+    color: black;
+}
+
+.form-text {
+    font-family: 'MSung HK Medium';
+    color: black;
+}
+
+.lensa-ajisaka {
+    background-color:  rgb(36, 0, 0);
+    margin-top: 130px;
+    width: 100%; /* Adjust width for responsiveness */
+    height: 650px;
+    display: flex; /* Changed from grid to flex */
+    justify-content: center; /* Aligns content */
+    box-sizing: border-box;
+  }
+  
+  .wrapper-lensa {
+   overflow-x: scroll;
+   display: flex;
+   scrollbar-width: thin;
+  scrollbar-color: #b21212 black;
+  }
+
+  .card-news {
+    background-color: #be2828;
+    width: 25rem;
+  }
+
+  .custom-btn {
+    background-color: #50151a; /* custom red */
+    border-color: #e63946;
+    color: white;
+  }
+  
+  .custom-btn:hover {
+    background-color: #631601;
+    border-color: #d62828;
+  }
+
+  .foto {
+    padding: 30px;
+  }
+
+
+  .kontainer-poster {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #520202;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+  }
+
+  .poster {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+
+  @media (max-width: 1200px) {
+    .navbar-nav {
+        margin-left: 10px;
+    }
+
+    .navtext {
+        font-size: 25px;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .container-fluid img {
+        height: 90px;
+    }
+
+    .card-news {
+      width: 20rem;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .card-kanan {
+      margin-top: 60px;
+    }
+
+    .lensa-ajisaka {
+      margin-top: 10px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .card-news {
+      width: 15rem;
+      height: 500px;
+    }
+  }
+
+
+
+
+
+
+  footer {
+    background-image: url(futer.png);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 500px;
+  }
+  
+  .quotes {
+    display: table;
+    gap: 10px;
+  }
+  
+  .quote-box {
+    color: white;
+    padding: 70px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-radius: 8px;
+    width: auto;
+  }
+  
+  .instagram-button {
+    width: 120px; /* Adjust size here */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+    color: white;
+    margin-right: 200px;
+  }
+  
+  .instagram-button:hover {
+    transform: scale(1.1); /* Optional: hover effect */
+  }
+  
