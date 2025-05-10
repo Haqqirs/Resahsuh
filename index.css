@@ -214,7 +214,11 @@
   }
 
 
-
+@media (max-width: 600px) {
+  .instagram-button {
+    display: none;
+  }
+}
 
 
 
