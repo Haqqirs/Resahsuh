@@ -218,6 +218,9 @@
   .instagram-button {
     display: none;
   }
+
+.body {
+    overflow-x: hidden;
 }
 
 
