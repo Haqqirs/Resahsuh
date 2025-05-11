@@ -213,13 +213,11 @@
     }
   }
 
-
-@media (max-width: 600px) {
-  .instagram-button {
-    display: none;
-    width: 0px;
+  @media (max-width: 600px) {
+    .instagram-button {
+      display: none;
+    }
   }
-
 
 
 
